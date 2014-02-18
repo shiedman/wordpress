@@ -1,0 +1,64 @@
+/* custom styles */
+.site-content .entry-header {
+	background-color: #B9A372;
+}
+.site-content .entry-meta {
+	background-color: #B9A372;
+}
+.site-content .entry-content,
+.site-content .entry-summary,
+.page-content {
+	background-color: #B9A372;
+}
+.site {
+	background-color: #DBCFB6;
+}
+
+
+.widget a {
+	color: #727cb9;
+}
+.entry-meta a {
+    color: #495162;
+}
+/*
+ *.site-content .entry-header,
+ *.site-content .entry-content,
+ *.site-content .entry-summary,
+ *.site-content .entry-meta,
+ *.page-content {
+ *    max-width: 700px;
+ *}
+ */
+
+/* Increase the readability of the sidebar */
+.site-title {
+  font-size: 1.5em;
+}
+.primary-sidebar .widget .widget-title {
+  font-size: 1.25em;
+  font-style: italic;
+}
+.primary-sidebar .textwidget {
+  font-size: 1.15em;
+}
+/* Make the twitter widget responsive */
+.twitter-timeline-rendered {
+  min-width: initial !important;
+  width: 100% !important;
+}
+/* Arrows for sidebar category links */
+.primary-sidebar .cat-item::before {
+  content: "\2192 \0000a0";
+}
+/* center the content in the background */
+#page {
+  margin: 0 auto;
+}
+/* Keep the featured image from taking over the screen */
+.post .post-thumbnail {
+  max-height: 192px;
+  overflow: hidden;
+}
+
+

@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 3.3\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2012-1-10 14:00:13+00:00\n"
+"PO-Revision-Date: 2012-01-10 15:05+0800\n"
+"Last-Translator: Shuy Qin <y2be@163.com>\n"
+"Language: Chinese (China)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: \n"
+
+msgid "% Comments &#187;"
+msgstr "%条评论 &#187;"
+
+msgid "% Responses"
+msgstr "%回复"
+
+msgid "%1$s - Comments on %2$s"
+msgstr "%1$s - 《%2$s》上的评论"
+
+msgid "%1$s and %2$s."
+msgstr "%1$s 和%2$s。"
+
+msgid "%1$s is proudly powered by %2$s"
+msgstr "%1$s 自豪地采用 %2$s 构建"
+
+msgid "%d queries. %s seconds."
+msgstr "%d 次查询，用时 %s 秒。"
+
+msgid "%s Atom Feed"
+msgstr "%s Atom Feed"
+
+msgid "%s RSS Feed"
+msgstr "%s RSS Feed"
+
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 更旧的条目"
+
+msgid "&raquo; Blog Archive"
+msgstr "&raquo; 博客归档"
+
+msgid "(required)"
+msgstr "(必填)"
+
+msgid "1 Comment &#187;"
+msgstr "1条评论 &#187;"
+
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML：</strong>您可使用下列标签：<code>%s</code>"
+
+msgid "Advanced"
+msgstr "高级"
+
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "Any CSS color (%s or %s or %s)"
+
+msgid "Archive for %s|Daily archive page"
+msgstr "%s的归档页"
+
+msgid "Archive for %s|Monthly archive page"
+msgstr "%s的归档页"
+
+msgid "Archive for %s|Yearly archive page"
+msgstr "%s的归档页"
+
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "&#171;%s&#187;分类的归档"
+
+msgid "Archives"
+msgstr "文章归档"
+
+msgid "Archives by Month:"
+msgstr "按月归档:"
+
+msgid "Archives by Subject:"
+msgstr "按主题归档:"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Author Archive"
+msgstr "作者归档"
+
+msgid "Blog Archives"
+msgstr "博客归档"
+
+msgid "Both comments and pings are currently closed."
+msgstr "Both comments and pings are currently closed."
+
+msgid "Categories"
+msgstr "分类目录"
+
+msgid "Close Color Picker"
+msgstr "Close Color Picker"
+
+msgid "Close this window."
+msgstr "关闭此窗口。"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Comments"
+msgstr "条评论"
+
+msgid "Comments (RSS)"
+msgstr "评论 RSS"
+
+msgid "Comments Closed"
+msgstr "评论已关闭"
+
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+msgid "Customize Header"
+msgstr "Customize Header"
+
+msgid "E-mail"
+msgstr "电子邮件"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit this entry"
+msgstr "编辑本条目"
+
+msgid "Edit this entry."
+msgstr "编辑本条目."
+
+msgid "Entries (RSS)"
+msgstr "文章 RSS"
+
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Not Found"
+
+msgid "F jS, Y"
+msgstr "F j日, Y"
+
+msgid "F, Y"
+msgstr "Y 年F"
+
+msgid "Font Color"
+msgstr "字体颜色"
+
+msgid "Font Color (CSS):"
+msgstr "字体颜色(CSS):"
+
+msgid "Font Color:"
+msgstr "字体颜色:"
+
+msgid "HEX only (%s or %s)"
+msgstr "HEX only (%s or %s)"
+
+msgid "Header Image and Color"
+msgstr "Header Image and Color"
+
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+msgid "Leave a Reply for %s"
+msgstr "回复 %s"
+
+msgid "Leave a comment"
+msgstr "留下评论"
+
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+
+msgid "Links:"
+msgstr "链接:"
+
+msgid "Log out &raquo;"
+msgstr "登出 &raquo;"
+
+msgid "Log out of this account"
+msgstr "登出这个帐号"
+
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "以 <a href=\"%1$s\">%2$s</a> 登录。"
+
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+
+msgid "Lower Color"
+msgstr "Lower Color"
+
+msgid "Lower Color (HEX):"
+msgstr "Lower Color (HEX):"
+
+msgid "Lower Color:"
+msgstr "Lower Color:"
+
+msgid "Mail (will not be published)"
+msgstr "电子邮件 (不会被公开)"
+
+msgid "Meta"
+msgstr "功能"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Newer Entries &raquo;"
+msgstr "更新的条目 &raquo;"
+
+msgid "No Comments &#187;"
+msgstr "没有评论 &#187;"
+
+msgid "No Responses"
+msgstr "没有回复"
+
+msgid "No comments yet."
+msgstr "还没有评论呢。"
+
+msgid "No posts found."
+msgstr "未找到文章。"
+
+msgid "No posts found. Try a different search?"
+msgstr "No posts found. Try a different search?"
+
+msgid "Not Found"
+msgstr "Not Found"
+
+msgid "One Response"
+msgstr "一条回复"
+
+msgid "Options saved."
+msgstr "设置已保存。"
+
+msgid "Pages"
+msgstr "页面"
+
+msgid "Pages:"
+msgstr "页面："
+
+msgid "Permanent Link to %s"
+msgstr "指向%s的固定链接"
+
+msgid "Pingback"
+msgstr "Pingback"
+
+msgid "Posted in %s"
+msgstr "Posted in %s"
+
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "标签&#171;%s&#187;相关的文章"
+
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgstr "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+msgid "Read the rest of this entry &raquo;"
+msgstr "Read the rest of this entry &raquo;"
+
+msgid "Read the rest of this page &raquo;"
+msgstr "Read the rest of this page &raquo;"
+
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+
+msgid "Revert"
+msgstr "Revert"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Say It!"
+msgstr "就说这些！"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search Results"
+msgstr "搜索结果"
+
+msgid "Search for:"
+msgstr "搜索："
+
+msgid "Select Default Colors"
+msgstr "选择默认的颜色"
+
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "抱歉,还没有 %s 相关的文章."
+
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "抱歉, 没有 %s 分类相关的文章。"
+
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "sorry, but there aren't any posts with this date."
+
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Sorry, but you are looking for something that isn&#8217;t here."
+
+msgid "Sorry, no posts matched your criteria."
+msgstr "抱歉，没有符合条件的文章。"
+
+msgid "Sorry, the comment form is closed at this time."
+msgstr "抱歉，评论已关闭。"
+
+msgid "Submit Comment"
+msgstr "发表评论"
+
+msgid "Tags:"
+msgstr "标签："
+
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+
+msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+msgstr "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr "This entry was posted on %1$s at %2$s and is filed under %3$s."
+
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "该页面符合 XHTML 1.0 过渡标准"
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "This post is password protected. Enter the password to view comments."
+
+msgid "Toggle Text"
+msgstr "Toggle Text"
+
+msgid "Toggle Text Display"
+msgstr "Toggle Text Display"
+
+msgid "Trackback"
+msgstr "Trackback"
+
+msgid "Update Header &raquo;"
+msgstr "Update Header &raquo;"
+
+msgid "Upper Color"
+msgstr "Upper Color"
+
+msgid "Upper Color (HEX):"
+msgstr "Upper Color (HEX):"
+
+msgid "Upper Color:"
+msgstr "Upper Color:"
+
+msgid "Use Defaults"
+msgstr "Use Defaults"
+
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+
+msgid "Website"
+msgstr "站点"
+
+msgid "XFN"
+msgstr "XFN"
+
+msgid "XHTML Friends Network"
+msgstr "XHTML 好友网络（Friends Network）"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgstr "这是%3$s的<a href=\"%1$s/\">%2$s</a>的博客归档."
+
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgstr "这是%3$s日的<a href=\"%1$s/\">%2$s</a>的博客归档."
+
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgstr "这是%3$s年的<a href=\"%1$s/\">%2$s</a>的博客归档"
+
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgstr "这是<a href=\"%1$s/\">%2$s</a>的博客归档."
+
+msgid "You are currently browsing the archives for the %s category."
+msgstr "这是 %s 分类目录的归档。"
+
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "You can skip to the end and leave a response. Pinging is currently not allowed."
+
+msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgstr "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+
+msgid "Your Comment"
+msgstr "您的评论"
+
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr "由 %1$s 发表于 <a href=\"#comment-%3$s\">%4$s %2$s</a>"
+
+msgid "l, F jS, Y"
+msgstr "Y 年 F j 日l"
+
+msgid "to &#8220;%s&#8221;"
+msgstr "to &#8220;%s&#8221;"
+
