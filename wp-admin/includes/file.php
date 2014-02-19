@@ -313,10 +313,12 @@ function wp_handle_upload( &$file, $overrides = false, $time = null ) {
 		return $upload_error_handler( $file, sprintf( __('The uploaded file could not be moved to %s.' ), $error_path ) );
 	}
 
+    if(!defined('SAE_STORAGE')){ //this modify is optional
 	// Set correct file permissions
 	$stat = stat( dirname( $new_file ));
 	$perms = $stat['mode'] & 0000666;
 	@ chmod( $new_file, $perms );
+    }
 
 	// Compute the URL
 	$url = $uploads['url'] . "/$filename";
@@ -441,10 +443,12 @@ function wp_handle_sideload( &$file, $overrides = false, $time = null ) {
 		return $upload_error_handler( $file, sprintf( __('The uploaded file could not be moved to %s.' ), $error_path ) );
 	}
 
+    if(!defined('SAE_STORAGE')){ //this modify is optional
 	// Set correct file permissions
 	$stat = stat( dirname( $new_file ));
 	$perms = $stat['mode'] & 0000666;
 	@ chmod( $new_file, $perms );
+    }
 
 	// Compute the URL
 	$url = $uploads['url'] . "/$filename";

@@ -377,10 +377,12 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 			return new WP_Error( 'image_save_error', __('Image Editor Save Failed') );
 		}
 
+        if(!defined('SAE_STORAGE')){ //this modify is optional
 		// Set correct file permissions
 		$stat = stat( dirname( $filename ) );
 		$perms = $stat['mode'] & 0000666; //same permissions as parent folder, strip off the executable bits
 		@ chmod( $filename, $perms );
+        }
 
 		/**
 		 * Filter the name of the saved image file.

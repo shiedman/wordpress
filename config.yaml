@@ -1,0 +1,5 @@
+handle:
+  - rewrite:if (!is_file() && !is_dir() && path ~ "^/(.*)") goto "index.php/$1"
+  - compress: if(out_header["Content-Type"] ~ "css") compress
+  - compress: if(out_header["Content-Type"] ~ "javascript") compress
+  - passwdaccess: passwd "admin:masterkey"

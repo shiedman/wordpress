@@ -1338,6 +1338,7 @@ function wp_get_original_referer() {
  * @return bool Whether the path was created. True if path already exists.
  */
 function wp_mkdir_p( $target ) {
+    if(defined('SAE_UPLOAD_DIR')){return substr($target, 0, 10) == 'saestor://';}
 	$wrapper = null;
 
 	// strip the protocol
@@ -1626,6 +1627,7 @@ function wp_upload_dir( $time = null ) {
 		}
 	}
 
+    if(defined('SAE_UPLOAD_DIR')){$dir=SAE_UPLOAD_DIR;$url=SAE_UPLOAD_URL;}
 	$basedir = $dir;
 	$baseurl = $url;
 

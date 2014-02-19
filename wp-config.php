@@ -12,6 +12,16 @@
 
 //define('WP_DEBUG', true);
 
+/**
+ * SAE Storage domain
+ * 用于保存上传文件。如果还没有开启Storage服务，登录SAE后，
+ * 服务管理>Storage>新建Domain，名字建议取wordpress。
+ * 如果不打算上传任何文件，可以将SAE_STORAGE设为FALSE: define('SAE_STORAGE',FALSE);
+ */
+define('SAE_STORAGE',wordpress);
+
+require('wp-config-sae.php');
+
 /** local mysql setting **/
 include('wp-config-local.php');
 
