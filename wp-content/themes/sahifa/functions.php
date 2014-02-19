@@ -133,6 +133,10 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 
 add_action( 'import_done', 'wordpress_importer_init' );
 
+//do not display shortcode buttons on post editor.
+remove_action('admin_head','html_quicktags');
+//do not show "Sahifa-Post Options" panel below post editor.
+remove_action("admin_init", "posts_init");
 
 
 ?>

@@ -2892,3 +2892,161 @@ div.pp_default .pp_details,div.light_rounded .pp_details,div.dark_rounded .pp_de
 	.video-box .big-video-column iframe, .video-box .big-video-column embed,
 	.single-post-video iframe, .single-post-video embed, .video-box .big-video-column iframe, .video-box .big-video-column embed{height: 150px;}
 }
+
+/* custom style settings
+ * Email:   shiedman@gmail.com
+ */
+
+body{
+    color: #e1e1e1;
+    /*color: #93a1a1;*/
+}
+.post-listing {
+    /*color: #e1e1e1;*/
+    background: #001311 url(images/footer.png) repeat;
+    border: 0 none transparent;
+}
+
+#main-content {
+    background: #002b36;
+    /*background: url(images/bg.png);*/
+}
+
+.item-list {
+    /*background: url(images/footer-top.png) repeat-x;*/
+    border-bottom: 0 none transparent;
+    /*border-bottom: url(images/footer-top.png);*/
+}
+.item-list + .item-list{
+    background: url(images/footer-top.png) repeat-x;
+    /*border-bottom: url(images/footer-top.png);*/
+}
+
+/* 1.2 Hyperlinks */
+
+a:link, a:visited  { color: #d77900; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited  { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-decoration: underline;}
+
+.widget-top h4 {
+    color: #d6d1af;
+    text-shadow:2px 2px 0 #000;
+}
+
+#sidebar .widget a {
+    color: #268bd2;
+}
+
+p.post-meta a:hover {
+    border-bottom: 1px #000 dotted;
+    /*color:#000;*/
+    text-decoration:underline;
+    color: #d77900;
+}
+.single-post .content {
+    float:none;
+    width: 100%;
+}
+.single-post #sidebar {
+    float:none;
+    display:none;
+}
+
+#sidebar .widget-container {
+    background: #eee8d5;
+}
+
+.entry > p {
+    font-size: 1.2em;
+}
+.footnotes p {
+    padding: 0;
+}
+
+#related_posts .related-item {
+    height: auto;
+}
+
+.post-tag a {
+    color: #268bd2;
+    padding: 0 8px;
+    font-size: 12px;
+}
+/* Pretty printing styles. Used with prettify.js.
+ *
+ * Name:    Stanley Ng
+ * Email:   stanleyhlng@googlegroups.com
+ *
+ */
+.pln {
+  color: #bd3613; }
+
+.str {
+  color: #269186; }
+
+.kwd {
+  color: #859900; }
+
+.com {
+  color: #586175;
+  font-style: italic; }
+
+.typ {
+  color: #b58900; }
+
+.lit {
+  color: #2aa198; }
+
+.pun {
+  color: #839496; }
+
+.opn {
+  color: #839496; }
+
+.clo {
+  color: #839496; }
+
+.tag {
+  color: #268bd2; }
+
+.atn {
+  color: #586175; }
+
+.atv {
+  color: #2aa198; }
+
+.dec {
+  color: #268bd2; }
+
+.var {
+  color: #268bd2; }
+
+.fun {
+  color: #FF0000; }
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprinti,code.prettyprint {
+  background: #fdf6e3;
+  padding: 10px;
+  border: 1px solid #E1E1E8; }
+
+pre > code.prettyprint {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  color: #4c666c;
+  margin: 0 0 0 20px; }
+
+ol.linenums li {
+  line-height: 18px;
+  padding-left: 12px;
+  margin: 0;
+}
+
