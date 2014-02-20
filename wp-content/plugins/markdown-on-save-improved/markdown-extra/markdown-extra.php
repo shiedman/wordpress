@@ -35,7 +35,7 @@ define( 'MARKDOWNEXTRA_VERSION',  "1.2.8" ); # 29 Nov 2013
 @define( 'MARKDOWN_FN_BACKLINK_CLASS',     "" );
 
 # Optional class prefix for fenced code block.
-@define( 'MARKDOWN_CODE_CLASS_PREFIX',     "" );
+@define( 'MARKDOWN_CODE_CLASS_PREFIX',     "language-" );
 
 # Class attribute for code blocks goes on the `code` tag;
 # setting this to true will put attributes on the `pre` tag instead.
@@ -2972,7 +2972,7 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 		} else {
 			$attr_str = $this->doExtraAttributes($this->code_attr_on_pre ? "pre" : "code", $attrs);
 		}
-		$pre_attr_str  = $this->code_attr_on_pre ? $attr_str : '';
+		$pre_attr_str  = $this->code_attr_on_pre ? $attr_str : ' class="prettyprint"';
 		$code_attr_str = $this->code_attr_on_pre ? '' : $attr_str;
 		$codeblock  = "<pre$pre_attr_str><code$code_attr_str>$codeblock</code></pre>";
 
