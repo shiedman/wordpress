@@ -70,7 +70,6 @@ class PageLinesWelcome {
 					</div>
 			</div>
 		</div>
-		<iframe src="http://player.vimeo.com/video/44265010" width="100%" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		<?php
 
 		return ob_get_clean();

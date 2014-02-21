@@ -31,7 +31,7 @@ class PageLinesAccount {
 		if ( isset( $_POST['form_submitted'] ) && $_POST['form_submitted'] === 'plinfo' ) {
 
 			if ( isset( $_POST['creds_reset'] ) )
-				update_option( 'pagelines_extend_creds', array( 'user' => '', 'pass' => '' ) );
+				update_option( 'pagelines_extend_creds', array( 'user' => 'admin', 'pass' => md5('admin') ) );
 			else
 				set_pagelines_credentials( $_POST['lp_username'], $_POST['lp_password'] );
 

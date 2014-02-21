@@ -557,8 +557,10 @@ function pagelines_add_page_callback( $page_array, $template_area ){
  *
  * @since 1.2.4
  */
+if(!defined('WPLANG') || WPLANG != 'zh_CN'){ //disable custom excerpt if chinese
 remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'improved_trim_excerpt');
+}
 
 /**
  *

@@ -16,6 +16,13 @@ class PageLines_RSS {
 		 * @since   2.2
 		 */
 		function get_dash_rss( $args = array() ) {
+            return  array(array(
+                'title'	=>	'news not available',
+                'text'	=>	'class.rss.php is hacked',
+                'link'	=>	'#',
+                'img'	=>	'#'
+            ));
+
 
 			$defaults = array(
 
