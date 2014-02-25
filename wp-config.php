@@ -11,6 +11,7 @@
  */
 
 //define('WP_DEBUG', true);
+//define('SAVEQUERIES', true);
 
 /**
  * SAE Storage domain
